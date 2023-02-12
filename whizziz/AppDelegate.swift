@@ -18,7 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = .systemBackground
         let visitorRouter = VisitorRouter()
         let visitorViewModel = VisitorViewModel(router: visitorRouter)
-        window?.rootViewController = VisitorViewController(viewModel: visitorViewModel)
+        let visitorViewController = VisitorViewController(viewModel: visitorViewModel)
+        visitorRouter.viewController = visitorViewController
+        window?.rootViewController = visitorViewController
         return true
     }
 }

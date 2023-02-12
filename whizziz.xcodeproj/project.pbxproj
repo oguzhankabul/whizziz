@@ -43,6 +43,21 @@
 		8440134C299903C600DD7C9F /* TryWhizzizRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440134B299903C600DD7C9F /* TryWhizzizRoute.swift */; };
 		8440134E299904A000DD7C9F /* LoginRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440134D299904A000DD7C9F /* LoginRoute.swift */; };
 		84401350299904C900DD7C9F /* LoginWithGoogleRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440134F299904C900DD7C9F /* LoginWithGoogleRoute.swift */; };
+		844013542999085600DD7C9F /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013532999085600DD7C9F /* L10n.swift */; };
+		8440135729990A5000DD7C9F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8440135929990A5000DD7C9F /* Localizable.strings */; };
+		844013732999202E00DD7C9F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013722999202E00DD7C9F /* String+Extensions.swift */; };
+		844013752999471500DD7C9F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013742999471500DD7C9F /* UIView+Extensions.swift */; };
+		844013782999840500DD7C9F /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844013772999840500DD7C9F /* Rubik-Black.ttf */; };
+		844013832999842800DD7C9F /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844013792999842700DD7C9F /* Rubik-Light.ttf */; };
+		844013842999842800DD7C9F /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8440137A2999842700DD7C9F /* Rubik-BoldItalic.ttf */; };
+		844013852999842800DD7C9F /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8440137B2999842700DD7C9F /* Rubik-BlackItalic.ttf */; };
+		844013862999842800DD7C9F /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8440137C2999842800DD7C9F /* SIL Open Font License.txt */; };
+		844013872999842800DD7C9F /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8440137D2999842800DD7C9F /* Rubik-Medium.ttf */; };
+		844013882999842800DD7C9F /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8440137E2999842800DD7C9F /* Rubik-MediumItalic.ttf */; };
+		844013892999842800DD7C9F /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8440137F2999842800DD7C9F /* Rubik-Bold.ttf */; };
+		8440138A2999842800DD7C9F /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844013802999842800DD7C9F /* Rubik-Italic.ttf */; };
+		8440138B2999842800DD7C9F /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844013812999842800DD7C9F /* Rubik-Regular.ttf */; };
+		8440138C2999842800DD7C9F /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844013822999842800DD7C9F /* Rubik-LightItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +116,21 @@
 		8440134B299903C600DD7C9F /* TryWhizzizRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryWhizzizRoute.swift; sourceTree = "<group>"; };
 		8440134D299904A000DD7C9F /* LoginRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRoute.swift; sourceTree = "<group>"; };
 		8440134F299904C900DD7C9F /* LoginWithGoogleRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithGoogleRoute.swift; sourceTree = "<group>"; };
+		844013532999085600DD7C9F /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		8440135829990A5000DD7C9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		844013722999202E00DD7C9F /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		844013742999471500DD7C9F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		844013772999840500DD7C9F /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		844013792999842700DD7C9F /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		8440137A2999842700DD7C9F /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8440137B2999842700DD7C9F /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8440137C2999842800DD7C9F /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		8440137D2999842800DD7C9F /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		8440137E2999842800DD7C9F /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		8440137F2999842800DD7C9F /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		844013802999842800DD7C9F /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		844013812999842800DD7C9F /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		844013822999842800DD7C9F /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +231,7 @@
 		844013102998EE2200DD7C9F /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				844013712999201D00DD7C9F /* Extensions */,
 				844013482998FE1000DD7C9F /* Routing */,
 				844013132998EE6F00DD7C9F /* UIBuilderHelper */,
 				844013402998F67900DD7C9F /* TransitionHelper.swift */,
@@ -257,9 +288,47 @@
 		844013512999066C00DD7C9F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84401376299983C200DD7C9F /* Fonts */,
+				844013522999082E00DD7C9F /* Strings */,
 				844012E5299853A600DD7C9F /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		844013522999082E00DD7C9F /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				844013532999085600DD7C9F /* L10n.swift */,
+				8440135929990A5000DD7C9F /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		844013712999201D00DD7C9F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				844013722999202E00DD7C9F /* String+Extensions.swift */,
+				844013742999471500DD7C9F /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84401376299983C200DD7C9F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8440137B2999842700DD7C9F /* Rubik-BlackItalic.ttf */,
+				8440137F2999842800DD7C9F /* Rubik-Bold.ttf */,
+				8440137A2999842700DD7C9F /* Rubik-BoldItalic.ttf */,
+				844013802999842800DD7C9F /* Rubik-Italic.ttf */,
+				844013792999842700DD7C9F /* Rubik-Light.ttf */,
+				844013822999842800DD7C9F /* Rubik-LightItalic.ttf */,
+				8440137D2999842800DD7C9F /* Rubik-Medium.ttf */,
+				8440137E2999842800DD7C9F /* Rubik-MediumItalic.ttf */,
+				844013812999842800DD7C9F /* Rubik-Regular.ttf */,
+				8440137C2999842800DD7C9F /* SIL Open Font License.txt */,
+				844013772999840500DD7C9F /* Rubik-Black.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,7 +443,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844013892999842800DD7C9F /* Rubik-Bold.ttf in Resources */,
 				844012E9299853A600DD7C9F /* LaunchScreen.storyboard in Resources */,
+				844013842999842800DD7C9F /* Rubik-BoldItalic.ttf in Resources */,
+				8440135729990A5000DD7C9F /* Localizable.strings in Resources */,
+				844013862999842800DD7C9F /* SIL Open Font License.txt in Resources */,
+				844013832999842800DD7C9F /* Rubik-Light.ttf in Resources */,
+				844013852999842800DD7C9F /* Rubik-BlackItalic.ttf in Resources */,
+				844013872999842800DD7C9F /* Rubik-Medium.ttf in Resources */,
+				8440138A2999842800DD7C9F /* Rubik-Italic.ttf in Resources */,
+				8440138C2999842800DD7C9F /* Rubik-LightItalic.ttf in Resources */,
+				844013882999842800DD7C9F /* Rubik-MediumItalic.ttf in Resources */,
+				8440138B2999842800DD7C9F /* Rubik-Regular.ttf in Resources */,
+				844013782999840500DD7C9F /* Rubik-Black.ttf in Resources */,
 				844012E6299853A600DD7C9F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +487,7 @@
 				84401350299904C900DD7C9F /* LoginWithGoogleRoute.swift in Sources */,
 				844013472998FD8F00DD7C9F /* VisitorViewModel.swift in Sources */,
 				844012E1299853A400DD7C9F /* VisitorViewController.swift in Sources */,
+				844013752999471500DD7C9F /* UIView+Extensions.swift in Sources */,
 				844013282998F52C00DD7C9F /* UICollectionViewBuilder.swift in Sources */,
 				8440132F2998F52C00DD7C9F /* AttributedStringDictionaryBuilder.swift in Sources */,
 				844013302998F52C00DD7C9F /* UIButtonBuilder.swift in Sources */,
@@ -414,6 +496,7 @@
 				8440132B2998F52C00DD7C9F /* UILabelBuilder.swift in Sources */,
 				844013272998F52C00DD7C9F /* UITextFieldBuilder.swift in Sources */,
 				844013262998F52C00DD7C9F /* UIScrollViewBuilder.swift in Sources */,
+				844013542999085600DD7C9F /* L10n.swift in Sources */,
 				8440134C299903C600DD7C9F /* TryWhizzizRoute.swift in Sources */,
 				844013292998F52C00DD7C9F /* UIBarButtonItemBuilder.swift in Sources */,
 				844013332998F52C00DD7C9F /* UIImageViewBuilder.swift in Sources */,
@@ -427,6 +510,7 @@
 				8440133D2998F5FB00DD7C9F /* BaseViewModel.swift in Sources */,
 				8440132A2998F52C00DD7C9F /* UIStackViewBuilder.swift in Sources */,
 				844013312998F52C00DD7C9F /* UIViewBuilder.swift in Sources */,
+				844013732999202E00DD7C9F /* String+Extensions.swift in Sources */,
 				844013252998F52C00DD7C9F /* UISwitchBuilder.swift in Sources */,
 				8440134E299904A000DD7C9F /* LoginRoute.swift in Sources */,
 			);
@@ -471,6 +555,14 @@
 				844012E8299853A600DD7C9F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8440135929990A5000DD7C9F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8440135829990A5000DD7C9F /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -526,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -580,7 +672,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -602,8 +694,8 @@
 				INFOPLIST_FILE = whizziz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -630,8 +722,8 @@
 				INFOPLIST_FILE = whizziz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

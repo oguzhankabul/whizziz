@@ -16,6 +16,17 @@ public class AttributedStringDictionaryBuilder {
     }
     
     @discardableResult
+    public func lineSpacing(_ spacing: CGFloat, alignment: NSTextAlignment? = nil) -> Self {
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.lineSpacing = spacing
+        if let alignment = alignment {
+            paragraphStyle.alignment = alignment
+        }
+        self.attributes[.paragraphStyle] = paragraphStyle
+        return self
+    }
+    
+    @discardableResult
     public func paragraphStyle(_ paragraphStyle: NSMutableParagraphStyle) -> Self {
         self.attributes[.paragraphStyle] = paragraphStyle
         return self

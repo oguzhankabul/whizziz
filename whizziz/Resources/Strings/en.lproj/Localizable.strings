@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  whizziz
+
+  Created by Oğuzhan Kabul on 12.02.2023.
+  
+*/
+
+"welcomeWhizzizTitle" = "Whizziz’e Hoş Geldin";
+"tryWhizzizButtonTitle" = "Whizziz’i Dene";
+"loginButtonTitle" = "Giriş Yap";
+"loginWithGoogleButtonTitle" = "Google ile Giriş Yap";
