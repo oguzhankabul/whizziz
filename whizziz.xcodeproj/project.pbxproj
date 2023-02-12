@@ -8,14 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		844012DD299853A400DD7C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844012DC299853A400DD7C9F /* AppDelegate.swift */; };
-		844012DF299853A400DD7C9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844012DE299853A400DD7C9F /* SceneDelegate.swift */; };
-		844012E1299853A400DD7C9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844012E0299853A400DD7C9F /* ViewController.swift */; };
-		844012E4299853A400DD7C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844012E2299853A400DD7C9F /* Main.storyboard */; };
+		844012E1299853A400DD7C9F /* VisitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844012E0299853A400DD7C9F /* VisitorViewController.swift */; };
 		844012E6299853A600DD7C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844012E5299853A600DD7C9F /* Assets.xcassets */; };
 		844012E9299853A600DD7C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844012E7299853A600DD7C9F /* LaunchScreen.storyboard */; };
 		844012F4299853A600DD7C9F /* whizzizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844012F3299853A600DD7C9F /* whizzizTests.swift */; };
 		844012FE299853A600DD7C9F /* whizzizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844012FD299853A600DD7C9F /* whizzizUITests.swift */; };
 		84401300299853A600DD7C9F /* whizzizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844012FF299853A600DD7C9F /* whizzizUITestsLaunchTests.swift */; };
+		8440130F2998EE0300DD7C9F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440130E2998EE0300DD7C9F /* BaseViewController.swift */; };
+		844013252998F52C00DD7C9F /* UISwitchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013142998F52B00DD7C9F /* UISwitchBuilder.swift */; };
+		844013262998F52C00DD7C9F /* UIScrollViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013152998F52B00DD7C9F /* UIScrollViewBuilder.swift */; };
+		844013272998F52C00DD7C9F /* UITextFieldBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013162998F52B00DD7C9F /* UITextFieldBuilder.swift */; };
+		844013282998F52C00DD7C9F /* UICollectionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013172998F52B00DD7C9F /* UICollectionViewBuilder.swift */; };
+		844013292998F52C00DD7C9F /* UIBarButtonItemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013182998F52B00DD7C9F /* UIBarButtonItemBuilder.swift */; };
+		8440132A2998F52C00DD7C9F /* UIStackViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013192998F52C00DD7C9F /* UIStackViewBuilder.swift */; };
+		8440132B2998F52C00DD7C9F /* UILabelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440131A2998F52C00DD7C9F /* UILabelBuilder.swift */; };
+		8440132C2998F52C00DD7C9F /* UIProgressViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440131B2998F52C00DD7C9F /* UIProgressViewBuilder.swift */; };
+		8440132D2998F52C00DD7C9F /* UITextViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440131C2998F52C00DD7C9F /* UITextViewBuilder.swift */; };
+		8440132E2998F52C00DD7C9F /* UIStepperBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440131D2998F52C00DD7C9F /* UIStepperBuilder.swift */; };
+		8440132F2998F52C00DD7C9F /* AttributedStringDictionaryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440131E2998F52C00DD7C9F /* AttributedStringDictionaryBuilder.swift */; };
+		844013302998F52C00DD7C9F /* UIButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440131F2998F52C00DD7C9F /* UIButtonBuilder.swift */; };
+		844013312998F52C00DD7C9F /* UIViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013202998F52C00DD7C9F /* UIViewBuilder.swift */; };
+		844013322998F52C00DD7C9F /* UISliderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013212998F52C00DD7C9F /* UISliderBuilder.swift */; };
+		844013332998F52C00DD7C9F /* UIImageViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013222998F52C00DD7C9F /* UIImageViewBuilder.swift */; };
+		844013342998F52C00DD7C9F /* UITableViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013232998F52C00DD7C9F /* UITableViewBuilder.swift */; };
+		844013352998F52C00DD7C9F /* UIPageControlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013242998F52C00DD7C9F /* UIPageControlBuilder.swift */; };
+		844013382998F59400DD7C9F /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 844013372998F59400DD7C9F /* TinyConstraints */; };
+		8440133B2998F5C000DD7C9F /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8440133A2998F5C000DD7C9F /* IQKeyboardManagerSwift */; };
+		8440133D2998F5FB00DD7C9F /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440133C2998F5FB00DD7C9F /* BaseViewModel.swift */; };
+		8440133F2998F65400DD7C9F /* RouterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440133E2998F65400DD7C9F /* RouterHelper.swift */; };
+		844013412998F67900DD7C9F /* TransitionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013402998F67900DD7C9F /* TransitionHelper.swift */; };
+		844013442998F71900DD7C9F /* ClosuresHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013432998F71900DD7C9F /* ClosuresHelper.swift */; };
+		844013472998FD8F00DD7C9F /* VisitorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013462998FD8F00DD7C9F /* VisitorViewModel.swift */; };
+		8440134A2999034E00DD7C9F /* VisitorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013492999034E00DD7C9F /* VisitorRouter.swift */; };
+		8440134C299903C600DD7C9F /* TryWhizzizRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440134B299903C600DD7C9F /* TryWhizzizRoute.swift */; };
+		8440134E299904A000DD7C9F /* LoginRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440134D299904A000DD7C9F /* LoginRoute.swift */; };
+		84401350299904C900DD7C9F /* LoginWithGoogleRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440134F299904C900DD7C9F /* LoginWithGoogleRoute.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +65,7 @@
 /* Begin PBXFileReference section */
 		844012D9299853A400DD7C9F /* whizziz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whizziz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844012DC299853A400DD7C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		844012DE299853A400DD7C9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		844012E0299853A400DD7C9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		844012E3299853A400DD7C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844012E0299853A400DD7C9F /* VisitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorViewController.swift; sourceTree = "<group>"; };
 		844012E5299853A600DD7C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844012E8299853A600DD7C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844012EA299853A600DD7C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +74,33 @@
 		844012F9299853A600DD7C9F /* whizzizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whizzizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844012FD299853A600DD7C9F /* whizzizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whizzizUITests.swift; sourceTree = "<group>"; };
 		844012FF299853A600DD7C9F /* whizzizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whizzizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8440130E2998EE0300DD7C9F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		844013142998F52B00DD7C9F /* UISwitchBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISwitchBuilder.swift; sourceTree = "<group>"; };
+		844013152998F52B00DD7C9F /* UIScrollViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewBuilder.swift; sourceTree = "<group>"; };
+		844013162998F52B00DD7C9F /* UITextFieldBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldBuilder.swift; sourceTree = "<group>"; };
+		844013172998F52B00DD7C9F /* UICollectionViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewBuilder.swift; sourceTree = "<group>"; };
+		844013182998F52B00DD7C9F /* UIBarButtonItemBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemBuilder.swift; sourceTree = "<group>"; };
+		844013192998F52C00DD7C9F /* UIStackViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilder.swift; sourceTree = "<group>"; };
+		8440131A2998F52C00DD7C9F /* UILabelBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelBuilder.swift; sourceTree = "<group>"; };
+		8440131B2998F52C00DD7C9F /* UIProgressViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIProgressViewBuilder.swift; sourceTree = "<group>"; };
+		8440131C2998F52C00DD7C9F /* UITextViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewBuilder.swift; sourceTree = "<group>"; };
+		8440131D2998F52C00DD7C9F /* UIStepperBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStepperBuilder.swift; sourceTree = "<group>"; };
+		8440131E2998F52C00DD7C9F /* AttributedStringDictionaryBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringDictionaryBuilder.swift; sourceTree = "<group>"; };
+		8440131F2998F52C00DD7C9F /* UIButtonBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBuilder.swift; sourceTree = "<group>"; };
+		844013202998F52C00DD7C9F /* UIViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewBuilder.swift; sourceTree = "<group>"; };
+		844013212998F52C00DD7C9F /* UISliderBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderBuilder.swift; sourceTree = "<group>"; };
+		844013222998F52C00DD7C9F /* UIImageViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewBuilder.swift; sourceTree = "<group>"; };
+		844013232998F52C00DD7C9F /* UITableViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewBuilder.swift; sourceTree = "<group>"; };
+		844013242998F52C00DD7C9F /* UIPageControlBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPageControlBuilder.swift; sourceTree = "<group>"; };
+		8440133C2998F5FB00DD7C9F /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		8440133E2998F65400DD7C9F /* RouterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterHelper.swift; sourceTree = "<group>"; };
+		844013402998F67900DD7C9F /* TransitionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionHelper.swift; sourceTree = "<group>"; };
+		844013432998F71900DD7C9F /* ClosuresHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresHelper.swift; sourceTree = "<group>"; };
+		844013462998FD8F00DD7C9F /* VisitorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorViewModel.swift; sourceTree = "<group>"; };
+		844013492999034E00DD7C9F /* VisitorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorRouter.swift; sourceTree = "<group>"; };
+		8440134B299903C600DD7C9F /* TryWhizzizRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryWhizzizRoute.swift; sourceTree = "<group>"; };
+		8440134D299904A000DD7C9F /* LoginRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRoute.swift; sourceTree = "<group>"; };
+		8440134F299904C900DD7C9F /* LoginWithGoogleRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithGoogleRoute.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844013382998F59400DD7C9F /* TinyConstraints in Frameworks */,
+				8440133B2998F5C000DD7C9F /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,11 +153,10 @@
 		844012DB299853A400DD7C9F /* whizziz */ = {
 			isa = PBXGroup;
 			children = (
+				844013512999066C00DD7C9F /* Resources */,
+				844013102998EE2200DD7C9F /* Helper */,
+				8440130C2998EDDF00DD7C9F /* Scenes */,
 				844012DC299853A400DD7C9F /* AppDelegate.swift */,
-				844012DE299853A400DD7C9F /* SceneDelegate.swift */,
-				844012E0299853A400DD7C9F /* ViewController.swift */,
-				844012E2299853A400DD7C9F /* Main.storyboard */,
-				844012E5299853A600DD7C9F /* Assets.xcassets */,
 				844012E7299853A600DD7C9F /* LaunchScreen.storyboard */,
 				844012EA299853A600DD7C9F /* Info.plist */,
 			);
@@ -127,6 +180,88 @@
 			path = whizzizUITests;
 			sourceTree = "<group>";
 		};
+		8440130C2998EDDF00DD7C9F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				844013452998FD6700DD7C9F /* VisitorView */,
+				8440130D2998EDF300DD7C9F /* Base */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8440130D2998EDF300DD7C9F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8440130E2998EE0300DD7C9F /* BaseViewController.swift */,
+				8440133C2998F5FB00DD7C9F /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		844013102998EE2200DD7C9F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				844013482998FE1000DD7C9F /* Routing */,
+				844013132998EE6F00DD7C9F /* UIBuilderHelper */,
+				844013402998F67900DD7C9F /* TransitionHelper.swift */,
+				844013432998F71900DD7C9F /* ClosuresHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		844013132998EE6F00DD7C9F /* UIBuilderHelper */ = {
+			isa = PBXGroup;
+			children = (
+				8440131E2998F52C00DD7C9F /* AttributedStringDictionaryBuilder.swift */,
+				844013182998F52B00DD7C9F /* UIBarButtonItemBuilder.swift */,
+				8440131F2998F52C00DD7C9F /* UIButtonBuilder.swift */,
+				844013172998F52B00DD7C9F /* UICollectionViewBuilder.swift */,
+				844013222998F52C00DD7C9F /* UIImageViewBuilder.swift */,
+				8440131A2998F52C00DD7C9F /* UILabelBuilder.swift */,
+				844013242998F52C00DD7C9F /* UIPageControlBuilder.swift */,
+				8440131B2998F52C00DD7C9F /* UIProgressViewBuilder.swift */,
+				844013152998F52B00DD7C9F /* UIScrollViewBuilder.swift */,
+				844013212998F52C00DD7C9F /* UISliderBuilder.swift */,
+				844013192998F52C00DD7C9F /* UIStackViewBuilder.swift */,
+				8440131D2998F52C00DD7C9F /* UIStepperBuilder.swift */,
+				844013142998F52B00DD7C9F /* UISwitchBuilder.swift */,
+				844013232998F52C00DD7C9F /* UITableViewBuilder.swift */,
+				844013162998F52B00DD7C9F /* UITextFieldBuilder.swift */,
+				8440131C2998F52C00DD7C9F /* UITextViewBuilder.swift */,
+				844013202998F52C00DD7C9F /* UIViewBuilder.swift */,
+			);
+			path = UIBuilderHelper;
+			sourceTree = "<group>";
+		};
+		844013452998FD6700DD7C9F /* VisitorView */ = {
+			isa = PBXGroup;
+			children = (
+				844012E0299853A400DD7C9F /* VisitorViewController.swift */,
+				844013462998FD8F00DD7C9F /* VisitorViewModel.swift */,
+				844013492999034E00DD7C9F /* VisitorRouter.swift */,
+			);
+			path = VisitorView;
+			sourceTree = "<group>";
+		};
+		844013482998FE1000DD7C9F /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				8440133E2998F65400DD7C9F /* RouterHelper.swift */,
+				8440134B299903C600DD7C9F /* TryWhizzizRoute.swift */,
+				8440134D299904A000DD7C9F /* LoginRoute.swift */,
+				8440134F299904C900DD7C9F /* LoginWithGoogleRoute.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		844013512999066C00DD7C9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				844012E5299853A600DD7C9F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +278,10 @@
 			dependencies = (
 			);
 			name = whizziz;
+			packageProductDependencies = (
+				844013372998F59400DD7C9F /* TinyConstraints */,
+				8440133A2998F5C000DD7C9F /* IQKeyboardManagerSwift */,
+			);
 			productName = whizziz;
 			productReference = 844012D9299853A400DD7C9F /* whizziz.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +354,10 @@
 				Base,
 			);
 			mainGroup = 844012D0299853A400DD7C9F;
+			packageReferences = (
+				844013362998F59400DD7C9F /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+				844013392998F5C000DD7C9F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 844012DA299853A400DD7C9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +376,6 @@
 			files = (
 				844012E9299853A600DD7C9F /* LaunchScreen.storyboard in Resources */,
 				844012E6299853A600DD7C9F /* Assets.xcassets in Resources */,
-				844012E4299853A400DD7C9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +400,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844012E1299853A400DD7C9F /* ViewController.swift in Sources */,
+				844013352998F52C00DD7C9F /* UIPageControlBuilder.swift in Sources */,
+				8440132E2998F52C00DD7C9F /* UIStepperBuilder.swift in Sources */,
+				8440132C2998F52C00DD7C9F /* UIProgressViewBuilder.swift in Sources */,
+				84401350299904C900DD7C9F /* LoginWithGoogleRoute.swift in Sources */,
+				844013472998FD8F00DD7C9F /* VisitorViewModel.swift in Sources */,
+				844012E1299853A400DD7C9F /* VisitorViewController.swift in Sources */,
+				844013282998F52C00DD7C9F /* UICollectionViewBuilder.swift in Sources */,
+				8440132F2998F52C00DD7C9F /* AttributedStringDictionaryBuilder.swift in Sources */,
+				844013302998F52C00DD7C9F /* UIButtonBuilder.swift in Sources */,
+				8440133F2998F65400DD7C9F /* RouterHelper.swift in Sources */,
+				844013342998F52C00DD7C9F /* UITableViewBuilder.swift in Sources */,
+				8440132B2998F52C00DD7C9F /* UILabelBuilder.swift in Sources */,
+				844013272998F52C00DD7C9F /* UITextFieldBuilder.swift in Sources */,
+				844013262998F52C00DD7C9F /* UIScrollViewBuilder.swift in Sources */,
+				8440134C299903C600DD7C9F /* TryWhizzizRoute.swift in Sources */,
+				844013292998F52C00DD7C9F /* UIBarButtonItemBuilder.swift in Sources */,
+				844013332998F52C00DD7C9F /* UIImageViewBuilder.swift in Sources */,
+				8440134A2999034E00DD7C9F /* VisitorRouter.swift in Sources */,
+				844013322998F52C00DD7C9F /* UISliderBuilder.swift in Sources */,
+				8440132D2998F52C00DD7C9F /* UITextViewBuilder.swift in Sources */,
+				844013412998F67900DD7C9F /* TransitionHelper.swift in Sources */,
+				844013442998F71900DD7C9F /* ClosuresHelper.swift in Sources */,
 				844012DD299853A400DD7C9F /* AppDelegate.swift in Sources */,
-				844012DF299853A400DD7C9F /* SceneDelegate.swift in Sources */,
+				8440130F2998EE0300DD7C9F /* BaseViewController.swift in Sources */,
+				8440133D2998F5FB00DD7C9F /* BaseViewModel.swift in Sources */,
+				8440132A2998F52C00DD7C9F /* UIStackViewBuilder.swift in Sources */,
+				844013312998F52C00DD7C9F /* UIViewBuilder.swift in Sources */,
+				844013252998F52C00DD7C9F /* UISwitchBuilder.swift in Sources */,
+				8440134E299904A000DD7C9F /* LoginRoute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +465,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		844012E2299853A400DD7C9F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				844012E3299853A400DD7C9F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		844012E7299853A600DD7C9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +602,9 @@
 				INFOPLIST_FILE = whizziz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +630,9 @@
 				INFOPLIST_FILE = whizziz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +762,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		844013362998F59400DD7C9F /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		844013392998F5C000DD7C9F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		844013372998F59400DD7C9F /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 844013362998F59400DD7C9F /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+		8440133A2998F5C000DD7C9F /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 844013392998F5C000DD7C9F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 844012D1299853A400DD7C9F /* Project object */;
 }
