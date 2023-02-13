@@ -20,18 +20,21 @@ class BaseViewModel<R: Router>: BaseViewModelProtocol {
     
     let router: R
     
+    let activityIndicator = UIActivityIndicatorView(style: .large)
+    
     init(router: R) {
         self.router = router
     }
     
     func viewDidLoad() {}
     
-    func showLoading(isUserInteractionEnabled: Bool = false, shadow: CGFloat = 0.7) {
-//        hud.showHUD(isUserInteractionEnabled: isUserInteractionEnabled, shadow: shadow)
+    func showLoading(isUserInteractionEnabled: Bool = false) {
+        activityIndicator.startAnimating()
     }
     
     func hideLoading() {
-//        hud.stopHUD()
+        activityIndicator.stopAnimating()
+        activityIndicator.isHidden = true
     }
     
     deinit {

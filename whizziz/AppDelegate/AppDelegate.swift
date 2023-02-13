@@ -19,9 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let visitorRouter = VisitorRouter()
         let visitorViewModel = VisitorViewModel(router: visitorRouter)
         let visitorViewController = VisitorViewController(viewModel: visitorViewModel)
+        let nav = UINavigationController(rootViewController: visitorViewController)
         visitorRouter.viewController = visitorViewController
-        window?.rootViewController = visitorViewController
+        window?.rootViewController = nav
         return true
     }
 }
-

@@ -130,7 +130,7 @@ extension VisitorViewController {
     @objc func touchUpInside(_ sender: UIButton) {
         switch sender {
         case tryWhizzizButton:
-            viewModel.pushTrhWhizziz()
+            viewModel.pushTryWhizziz()
         case loginButton:
             viewModel.pushLogin()
         case loginWithGoogleButton:

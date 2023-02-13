@@ -33,7 +33,6 @@
 		844013342998F52C00DD7C9F /* UITableViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013232998F52C00DD7C9F /* UITableViewBuilder.swift */; };
 		844013352998F52C00DD7C9F /* UIPageControlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013242998F52C00DD7C9F /* UIPageControlBuilder.swift */; };
 		844013382998F59400DD7C9F /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 844013372998F59400DD7C9F /* TinyConstraints */; };
-		8440133B2998F5C000DD7C9F /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8440133A2998F5C000DD7C9F /* IQKeyboardManagerSwift */; };
 		8440133D2998F5FB00DD7C9F /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440133C2998F5FB00DD7C9F /* BaseViewModel.swift */; };
 		8440133F2998F65400DD7C9F /* RouterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440133E2998F65400DD7C9F /* RouterHelper.swift */; };
 		844013412998F67900DD7C9F /* TransitionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013402998F67900DD7C9F /* TransitionHelper.swift */; };
@@ -58,6 +57,12 @@
 		8440138A2999842800DD7C9F /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844013802999842800DD7C9F /* Rubik-Italic.ttf */; };
 		8440138B2999842800DD7C9F /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844013812999842800DD7C9F /* Rubik-Regular.ttf */; };
 		8440138C2999842800DD7C9F /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844013822999842800DD7C9F /* Rubik-LightItalic.ttf */; };
+		8440139A2999A3C700DD7C9F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013992999A3C700DD7C9F /* User.swift */; };
+		8440139D2999A6CE00DD7C9F /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8440139C2999A6CE00DD7C9F /* PromiseKit */; };
+		844013A02999A70A00DD7C9F /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440139F2999A70A00DD7C9F /* HomepageViewController.swift */; };
+		844013A22999A71900DD7C9F /* HomepageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013A12999A71900DD7C9F /* HomepageViewModel.swift */; };
+		844013A42999A72800DD7C9F /* HomepageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844013A32999A72800DD7C9F /* HomepageRouter.swift */; };
+		844013A72999AE9300DD7C9F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 844013A62999AE9300DD7C9F /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +136,10 @@
 		844013802999842800DD7C9F /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
 		844013812999842800DD7C9F /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		844013822999842800DD7C9F /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		844013992999A3C700DD7C9F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8440139F2999A70A00DD7C9F /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		844013A12999A71900DD7C9F /* HomepageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewModel.swift; sourceTree = "<group>"; };
+		844013A32999A72800DD7C9F /* HomepageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +147,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844013A72999AE9300DD7C9F /* Alamofire in Frameworks */,
 				844013382998F59400DD7C9F /* TinyConstraints in Frameworks */,
-				8440133B2998F5C000DD7C9F /* IQKeyboardManagerSwift in Frameworks */,
+				8440139D2999A6CE00DD7C9F /* PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,10 +193,11 @@
 		844012DB299853A400DD7C9F /* whizziz */ = {
 			isa = PBXGroup;
 			children = (
+				844013952999A38F00DD7C9F /* DataProvider */,
+				844013942999A24500DD7C9F /* AppDelegate */,
 				844013512999066C00DD7C9F /* Resources */,
 				844013102998EE2200DD7C9F /* Helper */,
 				8440130C2998EDDF00DD7C9F /* Scenes */,
-				844012DC299853A400DD7C9F /* AppDelegate.swift */,
 				844012E7299853A600DD7C9F /* LaunchScreen.storyboard */,
 				844012EA299853A600DD7C9F /* Info.plist */,
 			);
@@ -213,6 +224,7 @@
 		8440130C2998EDDF00DD7C9F /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				8440139E2999A6F800DD7C9F /* HomepageView */,
 				844013452998FD6700DD7C9F /* VisitorView */,
 				8440130D2998EDF300DD7C9F /* Base */,
 			);
@@ -331,6 +343,56 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		844013942999A24500DD7C9F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				844012DC299853A400DD7C9F /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		844013952999A38F00DD7C9F /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				844013962999A39600DD7C9F /* Models */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		844013962999A39600DD7C9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				844013982999A3A700DD7C9F /* Response */,
+				844013972999A39B00DD7C9F /* Request */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		844013972999A39B00DD7C9F /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		844013982999A3A700DD7C9F /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				844013992999A3C700DD7C9F /* User.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		8440139E2999A6F800DD7C9F /* HomepageView */ = {
+			isa = PBXGroup;
+			children = (
+				8440139F2999A70A00DD7C9F /* HomepageViewController.swift */,
+				844013A12999A71900DD7C9F /* HomepageViewModel.swift */,
+				844013A32999A72800DD7C9F /* HomepageRouter.swift */,
+			);
+			path = HomepageView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,7 +411,8 @@
 			name = whizziz;
 			packageProductDependencies = (
 				844013372998F59400DD7C9F /* TinyConstraints */,
-				8440133A2998F5C000DD7C9F /* IQKeyboardManagerSwift */,
+				8440139C2999A6CE00DD7C9F /* PromiseKit */,
+				844013A62999AE9300DD7C9F /* Alamofire */,
 			);
 			productName = whizziz;
 			productReference = 844012D9299853A400DD7C9F /* whizziz.app */;
@@ -425,7 +488,8 @@
 			mainGroup = 844012D0299853A400DD7C9F;
 			packageReferences = (
 				844013362998F59400DD7C9F /* XCRemoteSwiftPackageReference "TinyConstraints" */,
-				844013392998F5C000DD7C9F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				8440139B2999A6CE00DD7C9F /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				844013A52999AE9300DD7C9F /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 844012DA299853A400DD7C9F /* Products */;
 			projectDirPath = "";
@@ -485,11 +549,13 @@
 				8440132E2998F52C00DD7C9F /* UIStepperBuilder.swift in Sources */,
 				8440132C2998F52C00DD7C9F /* UIProgressViewBuilder.swift in Sources */,
 				84401350299904C900DD7C9F /* LoginWithGoogleRoute.swift in Sources */,
+				844013A02999A70A00DD7C9F /* HomepageViewController.swift in Sources */,
 				844013472998FD8F00DD7C9F /* VisitorViewModel.swift in Sources */,
 				844012E1299853A400DD7C9F /* VisitorViewController.swift in Sources */,
 				844013752999471500DD7C9F /* UIView+Extensions.swift in Sources */,
 				844013282998F52C00DD7C9F /* UICollectionViewBuilder.swift in Sources */,
 				8440132F2998F52C00DD7C9F /* AttributedStringDictionaryBuilder.swift in Sources */,
+				844013A22999A71900DD7C9F /* HomepageViewModel.swift in Sources */,
 				844013302998F52C00DD7C9F /* UIButtonBuilder.swift in Sources */,
 				8440133F2998F65400DD7C9F /* RouterHelper.swift in Sources */,
 				844013342998F52C00DD7C9F /* UITableViewBuilder.swift in Sources */,
@@ -509,10 +575,12 @@
 				8440130F2998EE0300DD7C9F /* BaseViewController.swift in Sources */,
 				8440133D2998F5FB00DD7C9F /* BaseViewModel.swift in Sources */,
 				8440132A2998F52C00DD7C9F /* UIStackViewBuilder.swift in Sources */,
+				844013A42999A72800DD7C9F /* HomepageRouter.swift in Sources */,
 				844013312998F52C00DD7C9F /* UIViewBuilder.swift in Sources */,
 				844013732999202E00DD7C9F /* String+Extensions.swift in Sources */,
 				844013252998F52C00DD7C9F /* UISwitchBuilder.swift in Sources */,
 				8440134E299904A000DD7C9F /* LoginRoute.swift in Sources */,
+				8440139A2999A3C700DD7C9F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,9 +932,17 @@
 				kind = branch;
 			};
 		};
-		844013392998F5C000DD7C9F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+		8440139B2999A6CE00DD7C9F /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		844013A52999AE9300DD7C9F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -880,10 +956,15 @@
 			package = 844013362998F59400DD7C9F /* XCRemoteSwiftPackageReference "TinyConstraints" */;
 			productName = TinyConstraints;
 		};
-		8440133A2998F5C000DD7C9F /* IQKeyboardManagerSwift */ = {
+		8440139C2999A6CE00DD7C9F /* PromiseKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 844013392998F5C000DD7C9F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
-			productName = IQKeyboardManagerSwift;
+			package = 8440139B2999A6CE00DD7C9F /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		844013A62999AE9300DD7C9F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 844013A52999AE9300DD7C9F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

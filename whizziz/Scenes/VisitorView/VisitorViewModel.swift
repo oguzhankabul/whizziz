@@ -6,12 +6,14 @@
 //
 
 import Foundation
+import PromiseKit
+import Alamofire
 
 protocol VisitorViewModelDataSource {}
 
 protocol VisitorViewModelEventSource {
     func pushLogin()
-    func pushTrhWhizziz()
+    func pushTryWhizziz()
     func pushLoginWithGoogle()
 }
 
@@ -28,15 +30,50 @@ final class VisitorViewModel: BaseViewModel<VisitorRouter>, VisitorViewModelProt
 extension VisitorViewModel {
     
     func pushLogin() {
-        router.pushLogin()
+        showLoading()
+        firstly { () -> Promise<User?> in
+            return getUser()
+        } .done { user in
+            guard let user = user else { return }
+            self.router.pushLogin(username: user.data.user.username)
+        } .catch { error in
+            print(error)
+        } .finally {
+            self.hideLoading()
+        }
     }
     
-    func pushTrhWhizziz() {
+    func pushTryWhizziz() {
         router.pushTryWhizziz()
     }
     
     func pushLoginWithGoogle() {
         router.pushLoginWithGoogleRoute()
+    }
+}
+
+// MARK: - Request
+
+extension VisitorViewModel {
+    private func getUser() -> Promise<User?> {
+        let (promise, resolver) = Promise<User?>.pending()
+        let header = HTTPHeaders(["X-Organik-Auth" : "c57f5351569f71575292bbaa447c7dbe72b080fe"])
+        AF.request("https://api.organikhaberlesme.com/me", headers: header).responseJSON{ response in
+            if let error = response.error{
+                resolver.reject(error)
+            }
+            
+            if let data = response.data {
+                do {
+                    let decoder = JSONDecoder()
+                    let user = try decoder.decode(User.self, from: data)
+                    resolver.fulfill(user)
+                } catch {
+                    resolver.reject(error)
+                }
+            }
+        }
+        return promise
     }
 }
 

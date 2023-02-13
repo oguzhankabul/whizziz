@@ -1,12 +1,21 @@
 {
   "pins" : [
     {
-      "identity" : "iqkeyboardmanager",
+      "identity" : "alamofire",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/hackiftekhar/IQKeyboardManager.git",
+      "location" : "https://github.com/Alamofire/Alamofire",
       "state" : {
         "branch" : "master",
-        "revision" : "0ea3febb36cfcec2afb5841fd8809a9c0fa545b3"
+        "revision" : "ce0fb463a8f95fc8363c99fab1ea197553af5dfe"
+      }
+    },
+    {
+      "identity" : "promisekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mxcl/PromiseKit",
+      "state" : {
+        "revision" : "5b90042bb419e6f3b1719c973f37e1eab46ce991",
+        "version" : "6.21.0"
       }
     },
     {
